@@ -1,5 +1,5 @@
-main: main.c
-	gcc -std=c99 -o main main.c
+all: command_handler.c
+	gcc -std=c99 -o command_handler command_handler.c
 
 clean:
-	rm -f main
+	rm -f command_handler
